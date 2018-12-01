@@ -7,7 +7,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
+@Template Name: HostHub Construction
 @Developed By: Naim Lasker
 Author E-mail: naimlasker@gmail.com
 
@@ -316,7 +316,7 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/banner-bg1.jpg); }
+  background: url(../img/banner/main_pic.jpg); }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -326,10 +326,10 @@ button:focus {
     height: 600px !important; } }
 
 .banner-content {
-  text-align: left; }
+  text-align: right; }
   @media (max-width: 1680px) {
     .banner-content {
-      text-align: center; } }
+      text-align: right; } }
   @media (max-width: 680px) {
     .banner-content {
       padding: 48px 20px;
@@ -344,7 +344,7 @@ button:focus {
       border-color: #e45447;
       color: #000; }
   .banner-content h1 {
-    color: #000;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px; }
@@ -355,7 +355,7 @@ button:focus {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #000;
+    color: #ffffff;
     margin-bottom: 30px; }
     @media (max-width: 991px) {
       .banner-content h3 {
