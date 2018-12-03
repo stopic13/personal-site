@@ -333,7 +333,7 @@ button:focus {
   @media (max-width: 680px) {
     .banner-content {
       padding: 48px 20px;
-      /* background: #fff; */
+      background: #fff;
       margin: 0 15px; } }
   .banner-content .primary-btn {
     background: #e45447;
@@ -350,6 +350,7 @@ button:focus {
     margin-bottom: 20px; }
     @media (max-width: 991px) {
       .banner-content h1 {
+        color: #000;
         font-size: 40px; } }
   .banner-content h3 {
     font-size: 30px;
@@ -359,6 +360,7 @@ button:focus {
     margin-bottom: 30px; }
     @media (max-width: 991px) {
       .banner-content h3 {
+        color: #000;
         font-size: 20px; } }
 
 /* End Home Banner Area css
