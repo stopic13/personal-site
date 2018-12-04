@@ -218,7 +218,7 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #ffd200; }
+          background: #e1cbcb; }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -281,7 +281,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #ffd200;
+    background: #e1cbcb;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -316,7 +316,7 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/main_pic.jpg); }
+  background: url(../img/banner/main_pic.png); }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -374,7 +374,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 400px;
-    background-image: url(../img/banner/common-banner.jpg);
+    background-image: url(../img/banner/common-banner.png);
     background-size: cover;
     z-index: 1; }
     .banner_area .banner_inner .banner_content h1 {
@@ -420,7 +420,7 @@ button:focus {
 /* Projects Area css
 ============================================================================================ */
 .projects_fillter {
-  background: #ffd200; }
+  background: #e1cbcb; }
   .projects_fillter .filter {
     position: relative;
     text-align: center;
@@ -2742,7 +2742,7 @@ h6 {
     margin: 4px;
     font-weight: 500;
     text-transform: uppercase;
-    background: #ffd200; }
+    background: #e1cbcb; }
     .newsletter_form .navbar-form .genric-btn:hover {
       background-color: #e45447;
       color: #ffffff; }
@@ -2847,7 +2847,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #ffd200; }
+  background: #e1cbcb; }
 
 .social_widget .f_title h4 {
   font-size: 21px;
