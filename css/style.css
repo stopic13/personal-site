@@ -317,7 +317,9 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat; }
 .banner-area .slide_bg1 {
-  background: url(../img/banner/madrid_pic.JPG); }
+  background: url(../img/banner/madrid_pic.JPG);
+  background-size: cover;
+  background-repeat: no-repeat; }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
@@ -334,7 +336,7 @@ button:focus {
   @media (max-width: 680px) {
     .banner-content {
       padding: 48px 20px;
-      background: #fff;
+      background: rgba(255,255,255,0.7);
       margin: 0 15px; } }
   .banner-content .primary-btn {
     background: #db8d8d;
