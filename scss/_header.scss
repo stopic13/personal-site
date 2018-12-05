@@ -16,7 +16,8 @@
     width: 100%;
   }
   .navbar {
-    background: transparent;
+//    background: transparent;
+    filter: blur(8px);
     padding: 0px;
     border: 0px;
     border-radius: 0px;
