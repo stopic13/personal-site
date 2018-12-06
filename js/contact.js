@@ -18,7 +18,7 @@ $(document).ready(function(){
                 },
                 subject: {
                     required: true,
-                    minlength: 4
+                    minlength: 2
                 },
                 number: {
                     required: true,
@@ -30,7 +30,7 @@ $(document).ready(function(){
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    minlength: 5
                 }
             },
             messages: {

@@ -6,6 +6,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Projects</title>
+	<!-- Prepare a container for your calendar. -->
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -39,7 +46,7 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item active"><a class="nav-link" href="projects.html">Portfolio</a></li>
+							<li class="nav-item active"><a class="nav-link" href="projects.html">Projects</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -85,31 +92,31 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="projects_inner row grid">
+	<div class="projects_inner row grid">
 			<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
 			<div class="col-lg-6 col-sm-6 col-sm-12 brand web grid-item">
 				<div class="projects_item">
-					<img class="img-fluid w-100" src="img/works/work1.jpg" alt="">
+					<img class="img-fluid w-100" src="img/rm-square.png" alt="">
 					<div class="projects_text">
-						<a href="portfolio-details.html">
-							<h4>2D Vinyl Design</h4>
+						<a href="running_mates.html">
+							<h4>RunningMates</h4>
 						</a>
-						<p>Client Project</p>
+						<p>iOS app</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-sm-12 brand work grid-item">
 				<div class="projects_item">
-					<img class="img-fluid w-100" src="img/works/work2.jpg" alt="">
+					<img class="img-fluid w-100" src="img/dc-square.png" alt="">
 					<div class="projects_text">
-						<a href="portfolio-details.html">
-							<h4>2D Vinyl Design</h4>
+						<a href="dartcare.html">
+							<h4>DartCare</h4>
 						</a>
-						<p>Client Project</p>
+						<p>Web App</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 work grid-item">
+			<!-- <div class="col-lg-3 col-sm-6 work grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work3.jpg" alt="">
 					<div class="projects_text">
@@ -119,8 +126,8 @@
 						<p>Client Project</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-6 col-sm-6 brand work grid-item">
+			</div> -->
+			<!-- <div class="col-lg-6 col-sm-6 brand work grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work5.jpg" alt="">
 					<div class="projects_text">
@@ -130,8 +137,8 @@
 						<p>Client Project</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-6 col-sm-6 brand web grid-item">
+			</div> -->
+			<!-- <div class="col-lg-6 col-sm-6 brand web grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work4.jpg" alt="">
 					<div class="projects_text">
@@ -141,8 +148,8 @@
 						<p>Client Project</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-6 col-sm-6 brand work web grid-item">
+			</div> -->
+			<!-- <div class="col-lg-6 col-sm-6 brand work web grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work8.jpg" alt="">
 					<div class="projects_text">
@@ -152,8 +159,8 @@
 						<p>Client Project</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 brand work web grid-item">
+			</div> -->
+			<!-- <div class="col-lg-3 col-sm-6 brand work web grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work6.jpg" alt="">
 					<div class="projects_text">
@@ -163,8 +170,8 @@
 						<p>Client Project</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 brand work web grid-item">
+			</div> -->
+			<!-- <div class="col-lg-3 col-sm-6 brand work web grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work7.jpg" alt="">
 					<div class="projects_text">
@@ -174,10 +181,16 @@
 						<p>Client Project</p>
 					</div>
 				</div>
-			</div>
-		</div> -->
+			</div> -->
+		</div>
 	</div>
 </section>
+
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
 <!--================ End Portfolio Area =================-->
 
 
@@ -211,6 +224,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!--================End Footer Area =================-->
 
 	<!-- Optional JavaScript -->
+	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+	<script>
+	    new GitHubCalendar(".calendar", "stopic13");
+	</script>
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
