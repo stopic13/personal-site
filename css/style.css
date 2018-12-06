@@ -2604,7 +2604,9 @@ h6 {
       padding-bottom: 0px; } }
 @media (max-width: 991px) {
   .about-area .about-left {
-    display: none; } }
+    /* display: none; */
+     }
+    }
 .about-area .primary-btn {
   margin-top: 40px; }
 
