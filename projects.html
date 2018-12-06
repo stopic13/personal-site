@@ -95,7 +95,7 @@
 	<div class="projects_inner row grid">
 			<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
 			<div class="col-lg-6 col-sm-6 col-sm-12 brand web grid-item">
-				<div class="projects_item">
+				<div onclick="didSelectRunningMates()" class="projects_item">
 					<img class="img-fluid w-100" src="img/rm-square.png" alt="">
 					<div class="projects_text">
 						<a href="running_mates.html">
@@ -104,9 +104,11 @@
 						<p>iOS app</p>
 					</div>
 				</div>
+
 			</div>
+		</a>
 			<div class="col-lg-3 col-sm-6 col-sm-12 brand work grid-item">
-				<div class="projects_item">
+				<div onclick="didSelectDartCare()" class="projects_item">
 					<img class="img-fluid w-100" src="img/dc-square.png" alt="">
 					<div class="projects_text">
 						<a href="dartcare.html">
@@ -234,6 +236,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script>
 	    new GitHubCalendar(".calendar", "stopic13");
 	</script>
+
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
@@ -250,6 +253,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
+	<script>
+	function didSelectRunningMates() {
+		window.location.href = 'running_mates.html';
+	}
+	function didSelectDartCare() {
+		window.location.href = 'dartcare.html';
+	}
+</script>
 </body>
 
 </html>
