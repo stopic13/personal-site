@@ -47,6 +47,11 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700; }
 
+  @media (max-width: 900px) {
+      .calendar {
+        display: none; } }
+
+
 .list {
   list-style: none;
   margin: 0px;
@@ -2883,6 +2888,7 @@ h6 {
     color: #000; }
     .copyright p a {
       color: #db8d8d; }
+
 
 /* End Footer Area css
 ============================================================================================ */
