@@ -83,18 +83,18 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-10">
 				<div class="projects_fillter">
-					<!-- <ul class="filter list">
-						<li class="active" data-filter="*">All Categories</li>
-						<li data-filter=".brand">Branding</li>
-						<li data-filter=".work">Creative Work </li>
-						<li data-filter=".web">Web Design</li>
-					</ul> -->
+					<ul class="filter list">
+						<li class="active" data-filter="*">All</li>
+						<li data-filter=".web">Web</li>
+						<li data-filter=".mobile">Mobile</li>
+						<li data-filter=".embedded">Embedded</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	<div class="projects_inner row grid">
 			<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-			<div class="col-lg-6 col-sm-6 col-sm-12 brand web grid-item">
+			<div class="col-lg-6 col-sm-6 col-sm-12 mobile grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/rm-square.png" alt="">
 					<div class="projects_text">
@@ -105,7 +105,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-sm-12 brand work grid-item">
+			<div class="col-lg-3 col-sm-6 col-sm-12 web grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/dc-square.png" alt="">
 					<div class="projects_text">
@@ -116,17 +116,17 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-lg-3 col-sm-6 work grid-item">
+			<div class="col-lg-3 col-sm-6 embedded grid-item">
 				<div class="projects_item">
-					<img class="img-fluid w-100" src="img/works/work3.jpg" alt="">
+					<img class="img-fluid w-100" src="img/mp_square.png" alt="">
 					<div class="projects_text">
-						<a href="portfolio-details.html">
-							<h4>2D Vinyl Design</h4>
+						<a href="tic_tac_toe.html">
+							<h4>Tic-Tac-Toe</h4>
 						</a>
-						<p>Client Project</p>
+						<p>MicroPython Program</p>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- <div class="col-lg-6 col-sm-6 brand work grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work5.jpg" alt="">
@@ -185,6 +185,10 @@
 		</div>
 	</div>
 </section>
+<div class="calendar">
+		<!-- Loading stuff -->
+		Loading the data just for you.
+</div>
 
 
 <!--================ End Portfolio Area =================-->
@@ -193,10 +197,7 @@
 	<!--================Footer Area =================-->
 	<footer class="footer_area section_gap">
 		<div class="container">
-			<div class="calendar">
-					<!-- Loading stuff -->
-					Loading the data just for you.
-			</div>
+
 			<div class="row footer_inner justify-content-center">
 				<div class="col-lg-6 text-center">
 					<aside class="f_widget social_widget">
@@ -228,7 +229,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 
 	<script>
-	    new GitHubCalendar(".calendar", "stopic13");
+	    new GitHubCalendar(".calendar", "stopic13", {responsive: true} });
 	</script>
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
