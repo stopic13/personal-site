@@ -94,8 +94,8 @@
 		</div>
 	<div class="projects_inner row grid">
 			<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-			<div class="col-lg-6 col-sm-6 col-sm-12 mobile grid-item">
-				<div class="projects_item">
+			<div class="col-lg-6 col-sm-6 col-sm-12 brand web grid-item">
+				<div onclick="didSelectRunningMates()" class="projects_item">
 					<img class="img-fluid w-100" src="img/rm-square.png" alt="">
 					<div class="projects_text">
 						<a href="running_mates.html">
@@ -104,9 +104,11 @@
 						<p>iOS app</p>
 					</div>
 				</div>
+
 			</div>
-			<div class="col-lg-3 col-sm-6 col-sm-12 web grid-item">
-				<div class="projects_item">
+		</a>
+			<div class="col-lg-3 col-sm-6 col-sm-12 brand work grid-item">
+				<div onclick="didSelectDartCare()" class="projects_item">
 					<img class="img-fluid w-100" src="img/dc-square.png" alt="">
 					<div class="projects_text">
 						<a href="dartcare.html">
@@ -117,7 +119,7 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 embedded grid-item">
-				<div class="projects_item">
+				<div onclick="didSelectTTT()" class="projects_item">
 					<img class="img-fluid w-100" src="img/mp_square.png" alt="">
 					<div class="projects_text">
 						<a href="tic_tac_toe.html">
@@ -190,6 +192,14 @@
 		Loading the data just for you.
 </div>
 
+<section class="section_gap portfolio_area" id="work">
+<div class="container" id="calendar-container">
+<div class="calendar" id="calendar">
+		<!-- Loading stuff -->
+		Loading the data just for you.
+</div>
+</div>
+</section>
 
 <!--================ End Portfolio Area =================-->
 
@@ -197,7 +207,6 @@
 	<!--================Footer Area =================-->
 	<footer class="footer_area section_gap">
 		<div class="container">
-
 			<div class="row footer_inner justify-content-center">
 				<div class="col-lg-6 text-center">
 					<aside class="f_widget social_widget">
@@ -231,6 +240,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script>
 	    new GitHubCalendar(".calendar", "stopic13", {responsive: true} });
 	</script>
+
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
@@ -247,6 +257,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
+	<script>
+	function didSelectRunningMates() {
+		window.location.href = 'running_mates.html';
+	}
+	</script>
+	<script>
+	function didSelectDartCare() {
+		window.location.href = 'dartcare.html';
+	}
+</script>
+<script>
+function didSelectTTT() {
+	window.location.href = 'tic_tac_toe.html';
+}
+</script>
 </body>
 
 </html>

@@ -47,6 +47,11 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700; }
 
+  @media (max-width: 900px) {
+      .calendar {
+        display: none; } }
+
+
 .list {
   list-style: none;
   margin: 0px;
@@ -456,6 +461,7 @@ button:focus {
 .projects_inner {
   margin-bottom: -30px; }
 
+
 .projects_item {
   position: relative;
   border-radius: 5px;
@@ -471,6 +477,7 @@ button:focus {
     height: 100%;
     opacity: 0;
     transition: all 300ms ease; }
+
   .projects_item .projects_text {
     position: absolute;
     width: 100%;
@@ -497,7 +504,8 @@ button:focus {
       -o-transition: all 0.4s ease 0s;
       transition: all 0.4s ease 0s;
       text-transform: uppercase;
-      cursor: pointer; }
+      cursor: pointer;
+    }
     .projects_item .projects_text p {
       margin-bottom: 0px;
       font-size: 15px;
@@ -2596,7 +2604,9 @@ h6 {
       padding-bottom: 0px; } }
 @media (max-width: 991px) {
   .about-area .about-left {
-    display: none; } }
+    /* display: none; */
+     }
+    }
 .about-area .primary-btn {
   margin-top: 40px; }
 
@@ -2883,6 +2893,7 @@ h6 {
     color: #000; }
     .copyright p a {
       color: #db8d8d; }
+
 
 /* End Footer Area css
 ============================================================================================ */
