@@ -324,14 +324,22 @@ button:focus {
 .banner-area .slide_bg1 {
   background: url(../img/banner/madrid_pic.JPG);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  }
 .banner-area .slide_bg2 {
   background: url(../img/banner/banner-bg2.jpg); }
 .banner-area .slide_bg3 {
   background: url(../img/banner/banner-bg3.jpg); }
 @media (max-width: 991px) {
   .banner-area .fullscreen {
-    height: 600px !important; } }
+    height: 600px !important; }
+ }
+ @media (max-width: 575px) {
+     .banner-area .slide_bg1 {
+       background: url(../img/banner/madrid_pic_mobile.jpg); }
+  }
+
+  }
 
 .banner-content {
   text-align: right; }

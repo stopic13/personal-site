@@ -5,6 +5,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
 	<title>Projects</title>
 	<!-- Prepare a container for your calendar. -->
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
@@ -127,17 +128,17 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-lg-6 col-sm-6 brand work grid-item">
-				<div class="projects_item">
-					<img class="img-fluid w-100" src="img/works/work5.jpg" alt="">
+			<div class="col-lg-6 col-sm-6 web grid-item">
+				<div onclick="didSelectSG()" class="projects_item">
+					<img class="img-fluid w-100" src="img/mc-square.png" alt="">
 					<div class="projects_text">
-						<a href="portfolio-details.html">
-							<h4>2D Vinyl Design</h4>
+						<a href="sentence_generator.html">
+							<h4>Markov Model Sentence Generator</h4>
 						</a>
-						<p>Client Project</p>
+						<p>Web App</p>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- <div class="col-lg-6 col-sm-6 brand web grid-item">
 				<div class="projects_item">
 					<img class="img-fluid w-100" src="img/works/work4.jpg" alt="">
@@ -265,6 +266,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script>
 function didSelectTTT() {
 	window.location.href = 'tic_tac_toe.html';
+}
+</script>
+<script>
+function didSelectSG() {
+	window.location.href = 'sentence_generator.html';
 }
 </script>
 </body>
