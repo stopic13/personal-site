@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Projects</title>
+	<title>Speaking</title>
 	<!-- Prepare a container for your calendar. -->
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <script
@@ -50,8 +50,8 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item active"><a class="nav-link" href="projects.html">Projects</a></li>
-							<li class="nav-item"><a class="nav-link" href="speaking.html">Speaking</a></li>
+							<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+							<li class="nav-item active"><a class="nav-link" href="speaking.html">Speaking</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -66,7 +66,7 @@
 		<div class="banner_inner d-flex align-items-center">
 			<div class="container">
 				<div class="banner_content text-right">
-					<h1>Projects</h1>
+					<h1>Speaking</h1>
 				</div>
 			</div>
 		</div>
@@ -88,69 +88,30 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-10">
 				<div class="projects_fillter">
-					<ul class="filter list">
-						<li class="active" data-filter="*">All</li>
-						<li data-filter=".web">Web</li>
-						<li data-filter=".mobile">Mobile</li>
-						<li data-filter=".embedded">Embedded</li>
-					</ul>
 				</div>
 			</div>
 		</div>
 	<div class="projects_inner row grid">
 			<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
 			<div class="col-lg-6 col-sm-6 col-sm-12 mobile grid-item">
-				<div onclick="didSelectRunningMates()" class="projects_item">
-					<img class="img-fluid w-100" src="img/rm-square.png" alt="">
+				<div onclick="didSelectPyTn()" class="projects_item">
+					<img class="img-fluid w-100" src="img/pytennessee.JPG" alt="">
 					<div class="projects_text">
-						<a href="running_mates.html">
-							<h4>RunningMates</h4>
+						<a href="pytennessee.html">
+							<h4>PyTennessee</h4>
 						</a>
-						<p>iOS app</p>
+						<p>MicroPython</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-sm-12 web grid-item">
-				<div onclick="didSelectDartCare()" class="projects_item">
-					<img class="img-fluid w-100" src="img/dc-square.png" alt="">
+				<div onclick="didSelectNWP()" class="projects_item">
+					<img class="img-fluid w-100" src="img/nwp.JPG" alt="">
 					<div class="projects_text">
-						<a href="dartcare.html">
-							<h4>DartCare</h4>
+						<a href="nashville_women_programmers.html">
+							<h4>Nashville Women Programmers</h4>
 						</a>
-						<p>Web App</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 embedded grid-item">
-				<div onclick="didSelectTTT()" class="projects_item">
-					<img class="img-fluid w-100" src="img/mp-square.png" alt="">
-					<div class="projects_text">
-						<a href="tic_tac_toe.html">
-							<h4>Tic-Tac-Toe</h4>
-						</a>
-						<p>MicroPython Program</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-sm-6 web grid-item">
-				<div onclick="didSelectSG()" class="projects_item">
-					<img class="img-fluid w-100" src="img/mc-square.png" alt="">
-					<div class="projects_text">
-						<a href="sentence_generator.html">
-							<h4>Markov Model Sentence Generator</h4>
-						</a>
-						<p>Web App</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-sm-6 web grid-item">
-				<div onclick="didSelectCT()" class="projects_item">
-					<img class="img-fluid w-100" src="img/cookieTracker-square.png" alt="">
-					<div class="projects_text">
-						<a href="cookie_tracker.html">
-							<h4>cookieTracker</h4>
-						</a>
-						<p>Web Security Research</p>
+						<p>iOS Development</p>
 					</div>
 				</div>
 			</div>
@@ -256,29 +217,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
 	<script>
-	function didSelectRunningMates() {
-		window.location.href = 'running_mates.html';
+	function didSelectPyTn() {
+		window.location.href = 'pytennessee.html';
 	}
 	</script>
 	<script>
-	function didSelectDartCare() {
-		window.location.href = 'dartcare.html';
+	function didSelectNWP() {
+		window.location.href = 'nashville_women_programmers.html';
 	}
 </script>
-<script>
-function didSelectTTT() {
-	window.location.href = 'tic_tac_toe.html';
-}
-</script>
-<script>
-function didSelectSG() {
-	window.location.href = 'sentence_generator.html';
-}
-</script>
-<script>
-function didSelectCT() {
-	window.location.href = 'cookie_tracker.html';
-}
 </script>
 </body>
 

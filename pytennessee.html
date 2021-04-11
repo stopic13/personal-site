@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>DartCare</title>
+	<title>PyTennessee 2020</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -39,8 +39,8 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item active"><a class="nav-link" href="projects.html">Projects</a></li>
-							<li class="nav-item"><a class="nav-link" href="speaking.html">Speaking</a></li>
+							<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+							<li class="nav-item active"><a class="nav-link" href="speaking.html">Speaking</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -55,6 +55,12 @@
 		<div class="banner_inner d-flex align-items-center">
 			<div class="container">
 				<div class="banner_content text-right">
+					<h1></h1>
+					<!-- <div class="page_link">
+						<a href="index.html">Home</a>
+						<a href="about-us.html">About</a>
+					</div> -->
+				</div>
 			</div>
 		</div>
 	</section>
@@ -64,40 +70,34 @@
 	<section class="about-area section_gap gray-bg">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
-          <section class="banner-area owl-carousel" id="home">
-					<img class="img-fluid" src="img/dc-login.png" alt="">
-          <img class="img-fluid" src="img/dc-profile.png" alt="">
-          <img class="img-fluid" src="img/dc-dashboard.png" alt="">
-          <img class="img-fluid" src="img/dc-applications.png" alt="">
-          <img class="img-fluid" src="img/dc-verify.png" alt="">
-        </section>
+				<div class="col-lg-5 about-left">
+					<img class="img-fluid" src="img/pytennessee.JPG" alt="">
+				</div>
 				<div class="col-lg-6 col-md-12 about-right">
 					<div class="main-title text-left">
-						<h1>DartCare</h1>
+						<h1>PyTennessee 2020</h1>
+						<h2>Introduction To MicroPython</h2>
 					</div>
 					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
 						<p>
-							DartCare is an web app I worked on as the final project for a course in Full-Stack Web Development. I worked with four other students over the course of ~ two weeks to design and develop an platform to connect babysitters and parents/guardians in the Dartmouth community!
+							My first conference talk was at PyTennessee, an annual Python conference held in Nashville, TN.
 						</p>
-            <div class="main-title text-left">
-  						<h3>Tech Stack</h3>
-              <p> Frontend: React, Redux <p>
-              <p> Backend: Node.js, Express, MongoDB </p>
-              <p> Deployed: With surge at <a href="http://www.dartcare.surge.sh">dartcare.surge.sh</a></p>
-
-  					</div>
-            <div class="main-title text-left">
-              <h3>Personal Highlights</h3>
-              <p> This project was especially important to me because I originally pitched it during a round of pitch presentations that my classmates then voted on.  </p>
-              <p> Tasks I worked on include: </p>
-              <ul>
-                <li> Authentication (sign-in and sign-up, only allowing authenticated users to enter the site) </li>
-                <li> Email verification (users need a valid dartmouth.edu email address to use the site because a verification link gets sent there, and can't view their dashboard until they do so.) </li>
-                <li> Filtering functionality (lets babysitters filter job postings based on number of children, ages of children, hourly pay, and distance from campus ) </li>
-                <li> Rating (allowing users to rate a babysitter once their job is complete and displaying the results on the babysitter's profile)</li>
-            </div>
+						<p>
+							I talked about MicroPython, an implementation of Python 3 designed to run on microcontrollers that's perfect for beginners & hobbyists. You can view the full outline <a href="https://2020.pytennessee.org/talks/introduction-to-micropython"> here</a>, but the main topics covered were:
+							<ul>
+						  <li>The basics of working with hardware and how to select a board for your project</li>
+						  <li>The differences between MicroPython and CPython</li>
+						  <li>How to detect angle, motion and touch on a pyboard</li>
+							<li>Helpful libraries for creating graphics on a pyboard</li>
+						</ul>
+					</p>
+					<p>
+							I ended a talk with a demo of my <a href="tic_tac_toe.html"> PyBoard Tic-Tac-Toe</a> project
+						</p>
+					</div>
 					<!-- <a href="#" class="primary-btn">More Info</a> -->
 				</div>
+				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7g9TO7TvVpvf50w7nily17cwTNk-cDQ_W7CsbFdqWYC3SYuZSPAPBSR74yuNEklc7n_12uq8V3WV0/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 			</div>
 		</div>
 	</section>
